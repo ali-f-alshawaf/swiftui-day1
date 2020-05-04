@@ -9,10 +9,46 @@
 import SwiftUI
 
 struct ContentView: View {
+ 
+    @State var thker = "اضغط هنا"
     var body: some View {
-        Text("Hello, World!")
+        ZStack {
+            RamadanBG()
+            Text(thker)
+                .font(.largeTitle)
+                .foregroundColor(.white)
+                .padding()
+                .multilineTextAlignment(.center)
+                .onTapGesture {
+                    self.thker = athkar.randomElement()!
+            }
+            
+        }
     }
 }
+
+
+
+struct RamadanBG: View {
+    var body: some View {
+        ZStack{
+            Image("BACKGROUND")
+                .resizable()
+                .edgesIgnoringSafeArea(.all)
+            VStack{
+                Image("Header")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+                Spacer()
+                Image("Mosque")
+                    .resizable()
+                    .aspectRatio(contentMode: .fit)
+            }
+        }
+        .edgesIgnoringSafeArea(.all)
+    }
+}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

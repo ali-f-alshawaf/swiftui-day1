@@ -13,6 +13,9 @@
 		7B06DBB9245CAC0300E80B2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B06DBB8245CAC0300E80B2C /* Assets.xcassets */; };
 		7B06DBBC245CAC0300E80B2C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B06DBBB245CAC0300E80B2C /* Preview Assets.xcassets */; };
 		7B06DBBF245CAC0300E80B2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B06DBBD245CAC0300E80B2C /* LaunchScreen.storyboard */; };
+		7B06DBC7245F34DA00E80B2C /* CW2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06DBC6245F34DA00E80B2C /* CW2.swift */; };
+		7B06DBC9245F572400E80B2C /* athkar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06DBC8245F572400E80B2C /* athkar.swift */; };
+		7B06DBCB245F594600E80B2C /* CW3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B06DBCA245F594600E80B2C /* CW3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		7B06DBBB245CAC0300E80B2C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7B06DBBE245CAC0300E80B2C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B06DBC0245CAC0300E80B2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B06DBC6245F34DA00E80B2C /* CW2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW2.swift; sourceTree = "<group>"; };
+		7B06DBC8245F572400E80B2C /* athkar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = athkar.swift; sourceTree = "<group>"; };
+		7B06DBCA245F594600E80B2C /* CW3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CW3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				7B06DBB2245CAC0100E80B2C /* AppDelegate.swift */,
 				7B06DBB4245CAC0100E80B2C /* SceneDelegate.swift */,
 				7B06DBB6245CAC0100E80B2C /* ContentView.swift */,
+				7B06DBCA245F594600E80B2C /* CW3.swift */,
+				7B06DBC6245F34DA00E80B2C /* CW2.swift */,
+				7B06DBC8245F572400E80B2C /* athkar.swift */,
 				7B06DBB8245CAC0300E80B2C /* Assets.xcassets */,
 				7B06DBBD245CAC0300E80B2C /* LaunchScreen.storyboard */,
 				7B06DBC0245CAC0300E80B2C /* Info.plist */,
@@ -146,9 +155,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B06DBC9245F572400E80B2C /* athkar.swift in Sources */,
+				7B06DBC7245F34DA00E80B2C /* CW2.swift in Sources */,
 				7B06DBB3245CAC0100E80B2C /* AppDelegate.swift in Sources */,
 				7B06DBB5245CAC0100E80B2C /* SceneDelegate.swift in Sources */,
 				7B06DBB7245CAC0100E80B2C /* ContentView.swift in Sources */,
+				7B06DBCB245F594600E80B2C /* CW3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
